@@ -131,18 +131,31 @@ body {
         border-radius: 50px;
     }
 
+    .green:hover{
+        background: rgba(0, 128, 0, 0.8);
+        transition: 0.1s;
+    }
     .green:active{
         background: green;
     }
 
+    .yellow:hover{
+        background: rgba(255, 255, 0, 0.8);
+    }
     .yellow:active{
         background: yellow;
     }
 
+    .red:hover{
+        background: rgba(255, 0, 0, 0.8);
+    }
     .red:active{
         background: red;
     }
 
+    .blue:hover{
+        background: rgba(0, 0, 255, 0.8);
+    }
     .blue:active{
         background: blue;
     }
